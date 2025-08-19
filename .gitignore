@@ -1,17 +1,11 @@
-# --- Ignore large artifacts globally ---
-*.png
-*.npy
+# Ignore everything by default
+*
 
-# --- Always keep notebooks and metadata ---
-!Perceptual_Image_Generator_Calibrated.ipynb
-!**/metadata.csv
-!**/manifest.json
-!allimgs/index.csv
+# But keep these:
+!API_files/
+!API_files/**
+!Image_Gen.ipynb
+!image_gen.py
 
-# If you export other CSV manifests, keep them:
-!**/*.csv
-
-# Optional: ignore common caches
-.ipynb_checkpoints/
-__pycache__/
-*.DS_Store
+# Also keep .gitignore itself
+!.gitignore
