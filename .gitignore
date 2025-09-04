@@ -1,19 +1,17 @@
-# --- your large data dirs (ignored) ---
-/allimgs/**
-/results/**
-/perceptual_dataset_calibrated/**
+# --- Ignore large artifacts globally ---
+*.png
+*.npy
 
-# Allow tiny samples & readmes for docs/repro
-!/allimgs/samples/**
-!/results/samples/**
-!/perceptual_dataset_calibrated/samples/**
-!/allimgs/README.md
-!/results/README.md
-!/perceptual_dataset_calibrated/README.md
+# --- Always keep notebooks and metadata ---
+!Perceptual_Image_Generator_Calibrated.ipynb
+!**/metadata.csv
+!**/manifest.json
+!allimgs/index.csv
 
-# Usual useful ignores (safe to keep)
+# If you export other CSV manifests, keep them:
+!**/*.csv
+
+# Optional: ignore common caches
 .ipynb_checkpoints/
 __pycache__/
-*.py[cod]
-.env
-.venv/
+*.DS_Store
