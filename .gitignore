@@ -4,6 +4,7 @@
 
 # --- Always keep notebooks and metadata ---
 !Perceptual_Image_Generator_Calibrated.ipynb
+!LLMRunner.ipynb
 !**/metadata.csv
 !**/manifest.json
 !allimgs/index.csv
@@ -15,3 +16,4 @@
 .ipynb_checkpoints/
 __pycache__/
 *.DS_Store
+/Ignore_files/
