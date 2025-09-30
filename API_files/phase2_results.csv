@@ -8,7 +8,7 @@ phase,TrialID,ParticipantID,Truth,Image,provider,provider_kind,model,raw,confide
 2,3,1,1,/workspaces/Honors_Project/perceptual_dataset_calibrated/equal/present/combined/equal_present_003_combined.png,P1,OpenAI,gpt-4o-mini,6,6,1,1,0.0,3
 2,3,2,1,/workspaces/Honors_Project/perceptual_dataset_calibrated/equal/present/combined/equal_present_003_combined.png,P2,OpenAI,gpt-4o-mini,6,6,1,1,0.0,7
 2,3,3,1,/workspaces/Honors_Project/perceptual_dataset_calibrated/equal/present/combined/equal_present_003_combined.png,P3,Gemini,gemini-2.0-flash-thinking-exp-01-21,8,8,1,1,0.0,10
-2,4,1,1,/workspaces/Honors_Project/perceptual_dataset_calibrated/equal/present/combined/equal_present_004_combined.png,P1,OpenAI,gpt-4o-mini,6,6,1,1,0.0,10
+2,4,1,1,/workspaces/Honors_Project/perceptual_dataset_calibrated/equal/present/combined/equal_present_004_combined.png,P1,OpenAI,gpt-4o-mini,6,6,1,1,0.002,10
 2,4,2,1,/workspaces/Honors_Project/perceptual_dataset_calibrated/equal/present/combined/equal_present_004_combined.png,P2,OpenAI,gpt-4o-mini,4,4,0,0,0.0,2
 2,4,3,1,/workspaces/Honors_Project/perceptual_dataset_calibrated/equal/present/combined/equal_present_004_combined.png,P3,Gemini,gemini-2.0-flash-thinking-exp-01-21,5,5,0,0,0.0,4
 2,5,1,1,/workspaces/Honors_Project/perceptual_dataset_calibrated/equal/present/combined/equal_present_005_combined.png,P1,OpenAI,gpt-4o-mini,8,8,1,1,0.0,10
